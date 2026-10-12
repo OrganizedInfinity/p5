@@ -6,7 +6,7 @@ export default {
 	},
 	module: {
 		rules: [
-			{ test: /\.esm.js$/, type: "javascript/esm" }
+			{ test: /\.esm\.js$/, type: "javascript/esm" }
 		]
 	}
 }
