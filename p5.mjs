@@ -108,7 +108,7 @@ new p5(p => {
 		{ Index: 1, Label: "Linky", Renderer: RenderBars, Initializer: SetStroke(0) },
 		{ Index: 2, Label: "Čáry máry", Renderer: RenderLines, Initializer: SetStroke(5) },
 		{ Index: 3, Label: "Šachovnice", Renderer: InitCheckerboard(canvasSize/8), Initializer: SetStroke(0) },
-		{ Index: 4, Label: "Moje tečny", Renderer: RenderTangents, Initializer: SetStroke(8) }
+		{ Index: 4, Label: "Tečny", Renderer: RenderTangents, Initializer: SetStroke(8) }
 	]
 
 	let CurrentEntry = MenuEntries[0];
